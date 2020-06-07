@@ -4,33 +4,35 @@ import '../styles/OverallResults.css'
 const OverallResults = () => {
 
     return (
-        <>
-            <table id='overall-results'>
-                <tbody>
-                    <tr>
-                        <th className='overall-confirmed'>
-                            Confirmed
+        <><h2>GLOBAL</h2>
+            <div id="overall-results-wrap">
+                <table id='overall-results'>
+                    <tbody>
+                        <tr>
+                            <th className='overall'>
+                                Confirmed
                  </th>
-                        <th className='overall-recovered'>
-                            Recovered
+                            <th className='overall-recovered'>
+                                Recovered
                     </th>
-                        <th className='overall-deaths'>
-                            Deaths
+                            <th className='overall-deaths'>
+                                Deaths
                     </th>
-                    </tr>
-                    <tr>
-                        <td className='overall-confirmed-td'>
-                            1158640
-                        </td>
-                        <td className='overall-recovered-td'>
-                            565552
-                        </td>
-                        <td className='overall-deaths-td'>
-                            26550
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+                        </tr>
+                        <tr>
+                            <td className='confirmed'>
+                                115864 <sup>+562</sup>
+                            </td>
+                            <td className='recovered'>
+                                56555 <sup>+720</sup>
+                            </td>
+                            <td className='deaths'>
+                                26550 <sup>+124</sup>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </>
     )
 }

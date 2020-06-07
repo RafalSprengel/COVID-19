@@ -57,7 +57,7 @@ const SingleCountryTable = ({
             <input
                 type='button'
                 value='X'
-                id='remove-country'
+                className='remove-country'
                 onClick={() => removeCountry(singleCountryData[0].Country)}
             />
             <table>

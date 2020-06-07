@@ -1,36 +1,47 @@
+content h2{
+  color:#686868
+}
+#overall-results-wrap{
+  border-top: 2px solid silver;
+  border-bottom: 1px solid silver;
+  border-right: 0;
+  border-left: 0;
+  margin-top: 10px;
+}
 #overall-results{
-  width: 500px;
+  width: 570px;
   margin: 0 auto; 
-  margin-top: 30px;
+  margin: 15px 0;
 }
-#overall-results .overall-confirmed-td{
-    color: blue
+#overall-results th{
+  text-align: left;
+  padding: 5px 0;
+  color: #686868;
 }
-#overall-results .overall-confirmed{
-  background-color: #2a2a9b;
-  color:white;
-}
-#overall-results .overall-recovered-td{
-    color: green
-}
-#overall-results .overall-recovered{
-  background-color: #2f6c2f;
-  color:white;
-}
-#overall-results .overall-deaths-td{
-  color: red
-}
-#overall-results .overall-deaths{
-  background-color: #c22424;
-  color:white;
-}
-
-#today-cases{
-  background-color: #9E9E9E;
-  color:white;
-  width: 200px;
-  margin:20px 0;
-}
-#today-cases div{
+#overall-results td{
   padding: 5px 5px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Guardian Titlepiece","Guardian Headline Full","Guardian Headline","Guardian Egyptian Web",Georgia,serif;
 }
+#overall-results td sup{
+  font-size: 20px;
+}
+#overall-results td.confirmed{
+  color: #4b4bb6;
+}
+  #overall-results td.confirmed sup{
+    color: #747474;
+  }
+#overall-results td.recovered{
+  color: #2c782c;
+}
+  #overall-results td.recovered sup{
+    color: #747474;
+  }
+#overall-results td.deaths{
+  color: #b02e2e;
+}
+  #overall-results td.deaths sup{
+    color: #747474;
+  }

@@ -1338,7 +1338,9 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Header />
+        <header>
+          <Header />
+        </header>
         <content>
           {loading &&
             "Loading..."

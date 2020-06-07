@@ -1,28 +1,35 @@
-table {
+.countries-list-res-wrap table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     padding: 10px;
-    margin: 15px;
     width: 100%;
   }
   
-  thead>tr>td{
+  .countries-list-res-wrap thead>tr>td{
       text-align: center;
   }
   
-  td, th {
+  .countries-list-res-wrap td, .countries-list-res-wrap th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
-  td:nth-child(even) {
+  .countries-list-res-wrap td{
+    text-align: center ;
+  }
+  .countries-list-res-wrap td:nth-child(even) {
     background-color: #dddddd;
     border: 1px solid white;
   }
-  #remove-country{
+  .remove-country{
     margin: 5px;
+    cursor: pointer;
+    background-color: #dbdbdb;
+}
+.remove-country:hover{
+  background-color: #bebdbd;
 }
 .single-country-wrap{
-margin: 15px;
+margin: 20px;
 display: inline-block;
 }

@@ -32,7 +32,7 @@ const CountriesListResult = (props) => {
 
     return (
         <>
-            <div id='countries-list-res-wrap'>
+            <div className='countries-list-res-wrap'>
                 {allCountries}
             </div>
             <Pagination
@@ -44,6 +44,7 @@ const CountriesListResult = (props) => {
                 pageMin={pageMin}
                 pageMax={pageMax}
             />
+
         </>)
 }
 

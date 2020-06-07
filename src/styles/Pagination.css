@@ -1,11 +1,16 @@
+.pagination ul{
+}
 .pagination li {
-  display: inline-block;
+  text-align: center;
+    display: inline-block;
+    width: 40px;
     color: black;
-    float: left;
-    padding: 8px 16px;
+    padding: 8px 2px;
     text-decoration: none;
     transition: background-color .3s;
     cursor: pointer;
+    -moz-user-select: none;
+    user-select: none
   }
   
   .pagination li.active {
