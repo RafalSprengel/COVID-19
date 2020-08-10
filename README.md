@@ -1,10 +1,10 @@
 ## General Info
-Strona internetowa która daje możliwość sprawdzenia ilości osób zakarzonych COVID-19 w danym Państwie. Istnieje możliwość porównania ilości zakarzonych ludzi w poszczególnych państwach w tabeli. Pomysł na stronę powstał gdy nie mogłem znajeżć w internecie porównywarki, która pozwoliła by porównać ilość zakarzonych ludzi w różnych państwach na przestrzeni kilku miesięcy. Strona korzysta z zewnętrznego API. Nie udało mi się jej uruchomić na GitHub Pages ponieważ GitHub blokije dane z zewnętrznych API. Unfinished page.
+A website that allows you to check the number of people infected with COVID-19 in a given country. It is possible to compare the number of infected people in different countries in the table. The idea for the website was born when I could not find a comparison tool on the Internet that allowed me to compare the number of infected people in different countries over a period of several months. The website uses an external API. I couldn't run it on GitHub Pages because GitHub blocks data from external APIs. Unfinished page.
 
 ## Features
 * Comparing the number of people infected in different countries over a given period of time.
 * Always up-to-date data thanks to an external API.
-* Current data for the whole world..
+* Current data for the whole world.
 * Very light = very fast.
 
 ## Technologies
